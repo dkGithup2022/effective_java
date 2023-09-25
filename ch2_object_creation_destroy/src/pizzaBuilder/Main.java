@@ -19,4 +19,8 @@ public class Main {
 		System.out.println("calzone: " + calzone.toString());
 
 	}
+	/*
+	 nyPizza : NYPizza{size=SMALL, toppings=[HAM, ONION]}
+	 calzone: Calzone{sauceInside=true, toppings=[HAM, MUSHROOM, PEPPER]}
+	* */
 }

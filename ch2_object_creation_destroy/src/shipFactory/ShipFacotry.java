@@ -5,6 +5,10 @@ import shipFactory.data.Ship;
 public abstract class ShipFacotry {
 
 	/*
+	 * effective 자바의 정적 팩토리 메소드 패턴과는 연관은 없음 .
+	 * gof 의 팩토리 예시
+	 * */
+	/*
 	* 목적
 	*  1. 팩토리를 통한 정해진 형식의 객체 생성 ( 다른 형식은 생성을 제한할 수도 있음 )
 	*  2. 생성과 비즈니스 로직의 분리
