@@ -13,9 +13,10 @@ public class IntegerToString {
 		//
 
 
-		List<String> names = new ArrayList<>();
+//		List<String> names = new ArrayList<>();
 
-		//List<Object> objects = name;
+//		List<Object> objects = names;
+
 		//List<String> 과 List<Object> 는 다름.
 		// 상위, 하위 개념 아님 ( 어레이는 상하위 개념임 )
 

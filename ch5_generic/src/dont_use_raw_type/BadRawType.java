@@ -29,8 +29,8 @@ public class BadRawType {
  */
 	public static void unsafeCase() {
 		List<String> stringList = new ArrayList<>();
-		unsageAdd(stringList, "aa");
-		unsageAdd(stringList, 3L);
+		unsafeAdd(stringList, "aa");
+		unsafeAdd(stringList, 3L);
 		stringList.forEach(
 			e -> {
 				System.out.println("this is " + e);
@@ -39,7 +39,7 @@ public class BadRawType {
 
 	}
 
-	public static void unsageAdd(List list, Object o) {
+	public static void unsafeAdd(List list, Object o) {
 		list.add(o);
 	}
 
