@@ -244,6 +244,10 @@ public interface Operation {
 ```
 
 ```java
+
+public interface Operation {
+	double apply(double x, double y);
+}
 public enum BasicOperation implements Operation {
 	PLUS("+") {
 		@Override

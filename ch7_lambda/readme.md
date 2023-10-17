@@ -171,11 +171,12 @@ Consumer<T>	void accept(T t) 	System.out::println
 
 
 
+
 ### item45 : 스트림은 주의 해서 사용하라 .
 
 #### 스트림 용어 정리 
 
-1. stream : 유한혹은 무한한 어떤 시퀀스
+1. stream : 유한 혹은 무한한 어떤 시퀀스
 2. 스트림 파이프라인 : 원소를 이용한 연산 .
 
 #### 연산의 종류 
